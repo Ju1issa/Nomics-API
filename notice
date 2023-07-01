@@ -1,0 +1,9 @@
+In this script, the get_crypto_market_data function uses the Nomics API to fetch real-time market data for multiple cryptocurrencies. You can pass a list of cryptocurrency symbols (e.g., "BTC", "ETH", "XRP") to the function, and it will return a list of dictionaries containing information about each cryptocurrency.
+
+In the example usage, we call get_crypto_market_data with a list of three cryptocurrency symbols (BTC, ETH, XRP). We then print various market data for each currency, including name, symbol, price, market cap, and 24-hour volume.
+
+This script allows you to quickly retrieve real-time market data for multiple cryptocurrencies in a single API call. You can modify it to include additional data fields or customize the output based on your requirements.
+
+Please note that you need to replace YOUR_API_KEY in the URL with your actual API key from Nomics. You can sign up for a free API key at the Nomics website.
+
+Make sure you have the requests library installed by running the command pip install requests.
