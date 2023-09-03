@@ -1,4 +1,4 @@
-# Nomics-API
+# Nomics_API
 This script uses the Nomics API to fetch real-time market data for multiple cryptocurrencies
 import requests
 
